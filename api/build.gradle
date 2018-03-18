@@ -15,7 +15,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'gs-spring-boot'
+    baseName = 'stock-app'
     version =  '0.1.0'
 }
 
@@ -28,8 +28,8 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
     compile project(':model')
     compile project(':storage')
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile 'org.springframework.boot:spring-boot-starter-test:2.0.0.RELEASE'
 }
