@@ -1,0 +1,5 @@
+rootProject.name = 'stock-app'
+include 'model'
+include 'storage'
+include 'api'
+
