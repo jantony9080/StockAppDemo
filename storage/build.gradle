@@ -1,0 +1,28 @@
+group 'interview'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.0.RELEASE")
+    }
+}
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa:2.0.0.RELEASE'
+    compile 'com.h2database:h2'
+    compile project(':model')
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:2.0.0.RELEASE'
+
+}
