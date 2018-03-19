@@ -1,6 +1,6 @@
 # StockAppDemo
 ### Description.
-I was using Spring Boot to implement the assigment.
+I was using Spring Boot and Mockito to implement the assigment.
 #### Modules
 - Api - implementation of API.
 - Storage - implementation of the component that stores the data. Uses in memory DB.
