@@ -1,4 +1,16 @@
 # StockAppDemo
+### Description.
+I was using Spring Boot to implement the assigment.
+#### Modules
+- Api - implementation of API.
+- Storage - implementation of the component that stores the data. Uses in memory DB.
+- Model - domain defenition.
+- Integration - integration tests for the application.
+
+#### Initial data upload.
+DataLoader class is responsible for initial data upload:
+https://github.com/AndreyErokhin/StockAppDemo/blob/master/api/src/main/java/ru/interview/api/loader/DataUploader.java
+
 ### Running instructions.
 1. Download or clone the project.
 2. Change to the root project directory.
