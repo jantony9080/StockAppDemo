@@ -7,7 +7,7 @@ I was using Spring Boot and Mockito to implement the assigment.
 - Model - domain defenition.
 - Integration - integration tests for the application.
 
-**One important thing is that LastUpdateTime will be set only after the first stock update.** It's empty when you just creating the stock.
+**One important thing is that LastUpdateTime will be set only after the first stock price update.** It's empty when you just creating the stock.
 
 #### Initial data upload.
 DataLoader class is responsible for initial data upload:
