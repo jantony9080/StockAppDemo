@@ -7,6 +7,8 @@ I was using Spring Boot to implement the assigment.
 - Model - domain defenition.
 - Integration - integration tests for the application.
 
+**One important thing is that LastUpdateTime will be set only after the first stock update.** It's empty when you just creating the stock.
+
 #### Initial data upload.
 DataLoader class is responsible for initial data upload:
 https://github.com/AndreyErokhin/StockAppDemo/blob/master/api/src/main/java/ru/interview/api/loader/DataUploader.java
