@@ -38,7 +38,7 @@ public class StockController {
         return stocks;
     }
 
-    @ApiOperation(value = "Get the stock with the paricular ID", response = Stock.class)
+    @ApiOperation(value = "Get the stock with particular ID", response = Stock.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successfully retrieved stock"),
             @ApiResponse(code = 500, message = "Stock with the specified id isn't found")
@@ -50,7 +50,7 @@ public class StockController {
         return found;
     }
 
-    @ApiOperation(value = "Update price for the stock with the spesified ID")
+    @ApiOperation(value = "Update price for the stock with particular ID")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Stock price successfully updated"),
             @ApiResponse(code = 500, message = "Stock with the specified ID is not found")
