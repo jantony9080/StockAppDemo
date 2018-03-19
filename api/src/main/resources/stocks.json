@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Microsoft",
+    "price": 5.4,
+    "lastUpdate": null
+  },
+  {
+    "id": 2,
+    "name": "Google",
+    "price": 402.11,
+    "lastUpdate": null
+  },
+  {
+    "id": 3,
+    "name": "Ibm",
+    "price": 25.76,
+    "lastUpdate": null
+  },
+  {
+    "id": 4,
+    "name": "Payconiq",
+    "price": 1000,
+    "lastUpdate": null
+  }
+]

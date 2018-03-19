@@ -1,5 +1,6 @@
-rootProject.name = 'stock-app'
+rootProject.name = 'StockAppDemo'
 include 'model'
 include 'storage'
 include 'api'
+include 'integration'
 

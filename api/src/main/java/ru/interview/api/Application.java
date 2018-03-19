@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import ru.interview.api.service.StockService;
-import ru.interview.api.service.StockServiceImpl;
 import ru.interview.storage.service.RepositoryService;
 import ru.interview.storage.service.StorageService;
 

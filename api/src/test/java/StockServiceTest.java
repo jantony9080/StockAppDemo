@@ -133,7 +133,7 @@ public class StockServiceTest {
     }
 
     @TestConfiguration
-    static class EmployeeServiceImplTestContextConfiguration {
+    static class ServiceImplTestContextConfiguration {
 
         @Bean
         public StockServiceImpl stockServise() {
