@@ -3,12 +3,14 @@ package ru.interview.api.loader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import ru.interview.model.Stock;
 import ru.interview.storage.service.StorageService;
 
 
 @Component
+@Profile("!it-test")
 public class DataUploader  implements ApplicationRunner {
     
     @Autowired
